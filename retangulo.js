@@ -1,3 +1,5 @@
+//Área e Perímetro do retângulo
+
 var rect = {
     perimeter: function(x,y){
         return(2*(x,y));
@@ -8,12 +10,12 @@ var rect = {
 };
 
 function solveRect(l,b){
-    console.log('Solução parao retangulo l=' + l + 'e b =' + b );
+    console.log('Solução parao retângulo l=' + l + 'e b =' + b );
     if (l < 0 || b < 0){
-        console.log('as dimensoes do retangulo devem ser maior que zero: l=' + l + ', e b+' +b);
+        console.log('As dimensões do retângulo devem ser maior que zero: l=' + l + ', e b+' +b);
         } else {
-            console.log('a area do retangulo com dimensoes comprimento =' + l + 'e largura =' + b + ' e ' + rect.area(l,b));
-            console.log('o perimetro do retangulo com dimensoes comprimento =' + l + 'e largura =' + b + ' e ' + rect.perimeter(l,b));
+            console.log('A área do retângulo com dimensões comprimento =' + l + 'e largura =' + b + ' e ' + rect.area(l,b));
+            console.log('O perímetro do retângulo com dimensões comprimento =' + l + 'e largura =' + b + ' e ' + rect.perimeter(l,b));
         }
     }
 
